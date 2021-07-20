@@ -1,3 +1,7 @@
+#Create a storage account
+#Create container storage account
+#Move tfstatefile to container 
+
 #under terraform create
 backend"azurerm" {
 resource_group_name ="elvis-sandbox01"
@@ -7,3 +11,5 @@ key = "terraform.tfstate"
 }
 
 #Move terraform.tfstate.backup to another folder
+
+#Run terraform validate then init, plan, apply

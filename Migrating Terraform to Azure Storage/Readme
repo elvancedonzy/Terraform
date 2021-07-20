@@ -10,6 +10,6 @@ container_name = "tfstatefile"
 key = "terraform.tfstate"
 }
 
-#Move terraform.tfstate.backup to another folder
+#Move/delete terraform.tfstate.backup in folder
 
 #Run terraform validate then init, plan, apply

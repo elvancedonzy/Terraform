@@ -20,12 +20,14 @@ To check environment variable use
 
 `echo %TF_VAR_instancetype%`
 
-**If no instance type is specified in the [variable.tf](http://variable.tf) and in [main.tf](http://main.tf) file value will be required before terraform plan occurs**
-
-**terraform.tfvars is used in congestion with [variables.tf](http://variables.tf)**
-
 **Using the environment variable method (Linux)**
 
 `export TF_VAR_instancetype=”t2.nano”`
 
 `echo $TF_VAR_instancetype`
+
+**If no instance type is specified in the [variable.tf](http://variable.tf) and in [main.tf](http://main.tf) file value will be required before terraform plan occurs**
+
+**terraform.tfvars is used in congestion with [variables.tf](http://variables.tf)**
+
+

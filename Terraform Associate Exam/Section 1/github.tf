@@ -1,5 +1,5 @@
 provider "github" {
-  token = "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"
+  token = "token"
 }
 
 resource "github_repository" "terraform_test" {
